@@ -83,7 +83,7 @@
 
     Module.prototype.setAnimateParam = function(){
         this.animateParam = {
-            scrollTop: this.$target.offset().top
+            scrollTop: this.$target.position().top
         };
     };
 

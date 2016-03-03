@@ -88,7 +88,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
     Module.prototype.setAnimateParam = function () {
         this.animateParam = {
-            scrollTop: this.$target.offset().top
+            scrollTop: this.$target.position().top
         };
     };
 
